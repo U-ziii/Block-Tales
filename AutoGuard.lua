@@ -119,7 +119,7 @@ end
 -- Run the script after key verification
 local function runMainScript()
     -- Your original script logic here
-    local Games = loadstring(game:HttpGet"https://raw.githubusercontent.com/TexRBLX/Roblox-stuff/refs/heads/main/block%20tales/Block-Tales-Auto-Guard.lua")()
+    local Games = loadstring(game:HttpGet("https://raw.githubusercontent.com/TexRBLX/Roblox-stuff/refs/heads/main/block%20tales/revamp.lua"))()
 
     for PlaceID, Execute in pairs(Games) do
         if PlaceID == game.PlaceId then
